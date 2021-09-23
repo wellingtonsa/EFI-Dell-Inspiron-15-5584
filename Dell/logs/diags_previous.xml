@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>43</LogNumber>
+    <LogTimeStamp>08/19/2021 12:44:33</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Pass</Result>
+      <ReturnCode>BOOT_BIOSCONNECT</ReturnCode>
+      <DevicesTested>Memory, Hard Drive</DevicesTested>
+      <LogData>
+        <ePSALogTimeStamp>08/19/2021 12:44:17</ePSALogTimeStamp>
+        <ePSAVersion>2.55</ePSAVersion>
+        <ErrorCode>2000:0000</ErrorCode>
+        <FailedSubTest>MARCH_C-_TEST</FailedSubTest>
+        <ValidationCode>69554</ValidationCode>
+        <ErrorMessage><![CDATA[ePSA quick test pass]]></ErrorMessage>
+      </LogData>
+      <MemRxHealed>FALSE</MemRxHealed>
+      <ePSAInfo><![CDATA[serviceTag=6P9Y643&errCode=0000&ValCode=69554&uID=0C70C]]></ePSAInfo>
+      <ePSAFullVersion>2.55</ePSAFullVersion>
+      <ePSAInvocationCount>4</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>NO_BOOT</ErrorCategory>
+      <ErrorMessage><![CDATA[No bootable devices found.
+]]></ErrorMessage>
+      <Flags>BIOSCONNECT_ENABLED</Flags>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
